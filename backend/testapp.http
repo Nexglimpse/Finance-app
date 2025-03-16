@@ -1,0 +1,135 @@
+### 
+
+POST http://localhost:3100/register 
+Content-type: application/json
+
+{
+    "email": "test@gmail.com",
+    "name": "Test",
+    "phoneNumber": "8610939999",
+    "gender": "male",
+    "password": "123"
+}
+
+###
+
+POST http://localhost:3100/login
+Content-type: application/json
+
+{
+    "email": "test@gmail.com",
+    "password": "123"
+}
+
+###
+
+GET http://localhost:3100/userdetail
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+
+###
+
+PUT http://localhost:3100/userdetail/changepassword
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+Content-Type: application/json
+
+{
+    "oldPassword": "123",
+    "newPassword": "123"
+}
+
+###
+
+
+# INCOME / EXPENSE
+
+POST http://localhost:3100/cashflow
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+Content-Type: application/json
+
+{
+    "title": "EMI-2", 
+    "amount": "3000", 
+    "date": "14/03/2024", 
+    "type": "expense", 
+    "description": "Loan Emi 3rd Month"
+}
+
+###
+
+GET http://localhost:3100/cashflow
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+
+###
+
+PUT http://localhost:3100/cashflow/682bace0-b63d-4462-99d1-98074665cd8b
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+Content-Type: application/json
+
+{
+    "title": "1st EMI", 
+    "amount": "1000", 
+    "date": "14/03/2029", 
+    "type": "expense", 
+    "description": "Loan Emi 3rd Month"
+}
+
+###
+
+DELETE http://localhost:3100/cashflow/682bace0-b63d-4462-99d1-98074665cd8b
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+Content-Type: application/json
+
+
+###
+
+GET http://localhost:3100/balance
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+
+###
+
+# BILL REMINDER
+
+POST http://localhost:3100/billreminder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+Content-Type: application/json
+
+{
+  "title": "Water Bill",
+  "amount": 500,
+  "due_date": "2024-04-18",
+  "description": "Yearly water bill for 2024"
+}
+
+
+###
+
+GET http://localhost:3100/billreminder
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+
+
+###
+
+PUT http://localhost:3100/billreminder/11f75562-8315-4479-8dde-2a923b664e98
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+Content-Type: application/json
+
+{
+  "title": "Updated Water Bill",
+  "amount": 800,
+  "due_date": "2024-04-18",
+  "description": "Yearly water bill for 2024"
+}
+
+###
+
+DELETE http://localhost:3100/billreminder/11f75562-8315-4479-8dde-2a923b664e98
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiaWF0IjoxNzExNjk3MTMyfQ.tVG73OfJ1wnFAF6dtFj69KN4VQ57qRI_e25Nq_Di9E8
+
+
+###
+POST http://localhost:3100/api/read-pdf
+Content-Type: application/json
+
+{
+  "pdfPath": "backend/bills/ce241c1e-8404-4973-b0cc-2ac235eea093.pdf"
+}

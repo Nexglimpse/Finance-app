@@ -1,0 +1,38 @@
+.bill-container {
+  padding: 20px;
+}
+
+.bill-title {
+  margin-bottom: 20px;
+}
+
+.add-reminder-btn {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.bill-card {
+  width: 300px;
+  margin-top: 16px;
+}
+
+.bill-form {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  width: 100%;
+}

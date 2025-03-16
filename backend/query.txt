@@ -1,0 +1,83 @@
+INSERT INTO cashflow (email_id, title, amount, date, type, description, cashflow_id)
+VALUES
+('test@gmail.com', 'Salary', 5000, '2023-01-01', 'income', 'Monthly salary', 'income_1'),
+('test@gmail.com', 'Freelance', 1000, '2023-01-15', 'income', 'Web development project', 'income_2'),
+('test@gmail.com', 'Investment', 200, '2023-01-30', 'income', 'Stock dividends', 'income_3'),
+('test@gmail.com', 'Salary', 5000, '2023-02-01', 'income', 'Monthly salary', 'income_4'),
+('test@gmail.com', 'Bonus', 800, '2023-02-15', 'income', 'Quarterly performance bonus', 'income_5'),
+('test@gmail.com', 'Other', 300, '2023-02-28', 'income', 'Gift from a friend', 'income_6'),
+('test@gmail.com', 'Salary', 5000, '2023-03-01', 'income', 'Monthly salary', 'income_7'),
+('test@gmail.com', 'Freelance', 1000, '2023-03-15', 'income', 'Web development project', 'income_8'),
+('test@gmail.com', 'Investment', 200, '2023-03-30', 'income', 'Stock dividends', 'income_9'),
+('test@gmail.com', 'Salary', 5000, '2023-04-01', 'income', 'Monthly salary', 'income_10'),
+('test@gmail.com', 'Bonus', 800, '2023-04-15', 'income', 'Quarterly performance bonus', 'income_11'),
+('test@gmail.com', 'Other', 300, '2023-04-30', 'income', 'Gift from a friend', 'income_12'),
+('test@gmail.com', 'Salary', 5000, '2023-05-01', 'income', 'Monthly salary', 'income_13'),
+('test@gmail.com', 'Freelance', 1000, '2023-05-15', 'income', 'Web development project', 'income_14'),
+('test@gmail.com', 'Investment', 200, '2023-05-30', 'income', 'Stock dividends', 'income_15'),
+('test@gmail.com', 'Salary', 5000, '2023-06-01', 'income', 'Monthly salary', 'income_16'),
+('test@gmail.com', 'Bonus', 800, '2023-06-15', 'income', 'Quarterly performance bonus', 'income_17'),
+('test@gmail.com', 'Other', 300, '2023-06-30', 'income', 'Gift from a friend', 'income_18'),
+('test@gmail.com', 'Salary', 5000, '2023-07-01', 'income', 'Monthly salary', 'income_19'),
+('test@gmail.com', 'Freelance', 1000, '2023-07-15', 'income', 'Web development project', 'income_20'),
+('test@gmail.com', 'Investment', 200, '2023-07-30', 'income', 'Stock dividends', 'income_21'),
+('test@gmail.com', 'Salary', 5000, '2023-08-01', 'income', 'Monthly salary', 'income_22'),
+('test@gmail.com', 'Bonus', 800, '2023-08-15', 'income', 'Quarterly performance bonus', 'income_23'),
+('test@gmail.com', 'Other', 300, '2023-08-30', 'income', 'Gift from a friend', 'income_24'),
+('test@gmail.com', 'Salary', 5000, '2023-09-01', 'income', 'Monthly salary', 'income_25'),
+('test@gmail.com', 'Freelance', 1000, '2023-09-15', 'income', 'Web development project', 'income_26'),
+('test@gmail.com', 'Investment', 200, '2023-09-30', 'income', 'Stock dividends', 'income_27'),
+('test@gmail.com', 'Salary', 5000, '2023-10-01', 'income', 'Monthly salary', 'income_28'),
+('test@gmail.com', 'Bonus', 800, '2023-10-15', 'income', 'Quarterly performance bonus', 'income_29'),
+('test@gmail.com', 'Other', 300, '2023-10-30', 'income', 'Gift from a friend', 'income_30'),
+
+('test@gmail.com', 'Rent', 1500, '2023-01-05', 'expense', 'Monthly rent', 'expense_1'),
+('test@gmail.com', 'Groceries', 200, '2023-01-20', 'expense', 'Weekly groceries', 'expense_2'),
+('test@gmail.com', 'Utilities', 300, '2023-01-25', 'expense', 'Electricity, water, etc.', 'expense_3'),
+('test@gmail.com', 'Dining Out', 100, '2023-02-10', 'expense', 'Dinner with friends', 'expense_4'),
+('test@gmail.com', 'Shopping', 500, '2023-02-20', 'expense', 'Clothing and accessories', 'expense_5'),
+('test@gmail.com', 'Transportation', 50, '2023-02-28', 'expense', 'Bus fare', 'expense_6'),
+('test@gmail.com', 'Rent', 1500, '2023-03-05', 'expense', 'Monthly rent', 'expense_7'),
+('test@gmail.com', 'Groceries', 200, '2023-03-20', 'expense', 'Weekly groceries', 'expense_8'),
+('test@gmail.com', 'Utilities', 300, '2023-03-25', 'expense', 'Electricity, water, etc.', 'expense_9'),
+('test@gmail.com', 'Dining Out', 100, '2023-04-10', 'expense', 'Dinner with friends', 'expense_10'),
+('test@gmail.com', 'Shopping', 500, '2023-04-20', 'expense', 'Clothing and accessories', 'expense_11'),
+('test@gmail.com', 'Transportation', 50, '2023-04-30', 'expense', 'Bus fare', 'expense_12'),
+('test@gmail.com', 'Rent', 1500, '2023-05-05', 'expense', 'Monthly rent', 'expense_13'),
+('test@gmail.com', 'Groceries', 200, '2023-05-20', 'expense', 'Weekly groceries', 'expense_14'),
+('test@gmail.com', 'Utilities', 300, '2023-05-25', 'expense', 'Electricity, water, etc.', 'expense_15'),
+('test@gmail.com', 'Dining Out', 100, '2023-06-10', 'expense', 'Dinner with friends', 'expense_16'),
+('test@gmail.com', 'Shopping', 500, '2023-06-20', 'expense', 'Clothing and accessories', 'expense_17'),
+('test@gmail.com', 'Transportation', 50, '2023-06-30', 'expense', 'Bus fare', 'expense_18'),
+('test@gmail.com', 'Rent', 1500, '2023-07-05', 'expense', 'Monthly rent', 'expense_19'),
+('test@gmail.com', 'Groceries', 200, '2023-07-20', 'expense', 'Weekly groceries', 'expense_20'),
+('test@gmail.com', 'Utilities', 300, '2023-07-25', 'expense', 'Electricity, water, etc.', 'expense_21'),
+('test@gmail.com', 'Dining Out', 100, '2023-08-10', 'expense', 'Dinner with friends', 'expense_22'),
+('test@gmail.com', 'Shopping', 500, '2023-08-20', 'expense', 'Clothing and accessories', 'expense_23'),
+('test@gmail.com', 'Transportation', 50, '2023-08-31', 'expense', 'Bus fare', 'expense_24'),
+('test@gmail.com', 'Rent', 1500, '2023-09-05', 'expense', 'Monthly rent', 'expense_25'),
+('test@gmail.com', 'Groceries', 200, '2023-09-20', 'expense', 'Weekly groceries', 'expense_26'),
+('test@gmail.com', 'Utilities', 300, '2023-09-25', 'expense', 'Electricity, water, etc.', 'expense_27'),
+('test@gmail.com', 'Dining Out', 100, '2023-10-10', 'expense', 'Dinner with friends', 'expense_28'),
+('test@gmail.com', 'Shopping', 500, '2023-10-20', 'expense', 'Clothing and accessories', 'expense_29'),
+('test@gmail.com', 'Transportation', 50, '2023-10-31', 'expense', 'Bus fare', 'expense_30');
+
+
+
+
+BILL REMINDERS QUERY 
+::::::::::::::::::::
+
+
+INSERT INTO bill_reminder (bill_reminder_id, email_id, title, amount, due_date, description)
+VALUES 
+    ('1', 'test@gmail.com', 'Electricity Bill', 1500, '2024-04-03', 'Monthly electricity bill'),
+    ('2', 'test@gmail.com', 'Internet Bill', 800, '2024-04-04', 'Monthly internet bill'),
+    ('3', 'test@gmail.com', 'Phone Bill', 500, '2024-04-05', 'Monthly phone bill'),
+    ('4', 'test@gmail.com', 'Rent', 2000, '2024-04-07', 'Monthly rent payment'),
+    ('5', 'test@gmail.com', 'Insurance Premium', 1000, '2024-04-09', 'Quarterly insurance premium'),
+    ('6', 'test@gmail.com', 'Credit Card Bill', 700, '2024-04-10', 'Monthly credit card payment'),
+    ('7', 'test@gmail.com', 'Medical Expenses', 300, '2024-04-12', 'Doctor visit and medication expenses'),
+    ('8', 'test@gmail.com', 'Grocery Expenses', 400, '2024-04-14', 'Weekly grocery shopping'),
+    ('9', 'test@gmail.com', 'Gym Membership', 200, '2024-04-16', 'Monthly gym membership fee'),
+    ('10', 'test@gmail.com', 'Car Loan Payment', 1200, '2024-04-18', 'Monthly car loan installment');

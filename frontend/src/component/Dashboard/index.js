@@ -9,6 +9,7 @@ import {
   ArrowDownOutlined,
 } from "@ant-design/icons";
 import IncomeExpenseChart from "../IncomeExpenseChart";
+import StockPrices from "./StockPrices";
 
 import { List, Avatar, Typography } from "antd";
 import Cookies from "js-cookie";
@@ -251,10 +252,17 @@ class Dashboard extends Component {
             </div>
           </Col>
           <Col span={10}>
-            <div className="recent-history">
+            <div className="recent-transactions-container">
               <Card title="Recent Transactions">
                 <RecentTransactionsList transactions={recentTransactions} />
               </Card>
+            </div>
+          </Col>
+        </Row>
+        <Row className="section-3">
+          <Col span={24}>
+            <div className="stock-price-container">
+              <StockPrices />
             </div>
           </Col>
         </Row>
